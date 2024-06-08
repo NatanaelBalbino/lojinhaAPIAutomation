@@ -37,7 +37,7 @@ public class ProdutoTest {
 
     @Test
     @DisplayName("Validar os limites de valor proibidos do Produto: 0.00 Não Permitido")
-    public void testValidarLimitesProibidosValorZERADOProduto(){
+    public void testValidarLimiteProibidoValorZERADOProduto(){
         String request = given()
                 .contentType(ContentType.JSON)
                 .header("token", this.token)
@@ -52,7 +52,7 @@ public class ProdutoTest {
         System.out.println(request);
     }@Test
     @DisplayName("Validar os limites de valor proibidos do Produto: 7000.01 Não Permitido")
-    public void testValidarLimitesProibidosValorSeteMilEUmProduto(){
+    public void testValidarLimiteProibidoValorSeteMilEUmProduto(){
 
         String request = given()
                 .contentType(ContentType.JSON)
