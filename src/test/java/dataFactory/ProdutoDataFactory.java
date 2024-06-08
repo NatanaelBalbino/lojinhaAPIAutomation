@@ -10,7 +10,7 @@ public class ProdutoDataFactory {
     public static ProdutoPojo criarProdutoComumComOValorIgualA(double valor){
         ProdutoPojo produto = new ProdutoPojo();
 
-        produto.setProdutoNome("Garrafa PET");
+        produto.setProdutoNome("Garra");
 
         produto.setProdutoValor(valor);
 
